@@ -1,0 +1,25 @@
+<div class="recents">
+    <h3>Recents</h3>
+<div class="recent-contents">
+    <ng-container>
+        <div class="recent-tests">
+            <ul>
+                <li (mouseenter)="ViewTest(true)" (mouseleave)="ViewTest(false)">
+                       <h4>Quinnox Projects</h4> 
+                       <div class="test-actions">
+
+                           <p>web41</p>
+                           <button>webtesting</button>
+                           <span>3 days ago</span>
+                        </div>
+                        <div  *ngIf="viewtest">
+
+                            <button class="viewtest">View Test<i class="fa-solid fa-angle-right"></i></button>
+                        </div>
+                </li>
+            </ul>
+        </div>
+    </ng-container>
+    
+</div>
+</div>

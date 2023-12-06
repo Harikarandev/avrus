@@ -1,0 +1,46 @@
+.recents{
+    width: 60%;
+}
+.recent-tests ul{
+    padding: 0;
+    margin: 0;
+}
+.recent-tests ul li{
+    display: flex;
+    padding: 5px 10px;
+    background-color: white;
+    margin: 10px 0px;
+    border-radius: 5px;
+    justify-content: space-between;
+    place-items: center;
+}
+
+.recent-tests ul li h4{
+    font-size: 20px;
+}
+.test-actions{
+    display: inline-flex;
+    justify-content: center;
+    place-items: center;
+    gap: 10px;
+}
+.test-actions p{
+    margin: 0;
+}
+.test-actions button{
+    padding: 0px 5px;
+    border: none;
+    border-radius: 3px;
+    background-color:aquamarine !important;
+    height: 100%;
+}
+.viewtest{
+    background-color: rgb(100, 221, 248);
+    border: none;
+    padding: 3px 5px;
+    border-radius: 5px;
+}
+.viewtest i{
+    margin-left: 10px;
+    color:  rgb(64, 118, 243);;
+}

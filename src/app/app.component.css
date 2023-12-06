@@ -1,0 +1,52 @@
+.accordion-box{
+    margin: auto;
+    width: 70%;
+    /* text-align: center; */
+}
+
+.accordions{
+
+    background-color: #dfdfdf;
+    padding: 0px 10px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+}
+.toggle-button{
+    background-color: rgb(123, 123, 123);
+    padding: 5px;
+    cursor: pointer;
+}
+
+.child-accordions {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out; 
+  background-color: #bcbcbc;
+}
+
+
+.expand {
+  max-height: 200px; 
+  transition: max-height 0.5s ease-in;
+}
+
+.header {
+  background-color: #f1f1f1; /* Adjust the background color as needed */
+}
+
+.content {
+  display: flex;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px; /* Adjust padding as needed */
+  transition: margin-left 0.3s ease;
+  margin-left: 50px;
+}
+
+.sidebar-open .main-content {
+  margin-left: 250px; /* Adjust the margin-left value to match sidebar width */
+}

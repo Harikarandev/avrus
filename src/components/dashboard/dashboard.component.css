@@ -1,0 +1,31 @@
+.browser{
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 5px 5px #dfdfdf;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+.browser-content{
+    position: absolute;
+    font-size: 36px;
+    left: 50%;
+    margin-left: -25%;
+}
+
+#browser2 {
+    left: 150%;
+}
+
+.dashboard-content{
+    display: flex;
+    justify-content: space-between;
+}
+.browser-head{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}

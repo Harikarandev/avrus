@@ -1,0 +1,69 @@
+.active{
+    color: blue !important;
+}
+.navbar{
+    z-index: 1 !important;
+}
+.navbar-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-group-1{
+    display: flex;
+    margin-right: 20px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center
+}
+.menu-group-2{
+
+    display: flex;
+    margin-right: 20px;
+    border-right: 1px solid #dfdfdf;
+    padding: 0px 5px;
+
+}
+.menu-group-2 ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.profile-menu {
+    display: flex;
+    align-items: center;
+}
+  
+.avatar-container {
+border-radius: 50%;
+overflow: hidden;
+margin-right: 10px;
+border: 1px solid black;
+}
+
+.avatar {
+width: 40px; 
+height: 40px; 
+object-fit: cover;
+}
+  
+.dropdown select{
+    padding: 10px;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+.addbutton{
+    padding: 5px 10px;
+    border: none;
+    background-color: rgb(105, 144, 241);
+    color: white;
+    border-radius: 5px;
+    margin: auto;
+}
